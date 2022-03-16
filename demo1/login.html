@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>登录页面</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<script src="js/check.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			form{
+				margin: 0 auto;
+				width: 85%;
+			}
+			input{
+				margin-bottom: 10px;
+			}
+			input::-webkit-input-placeholder { 
+				color: #999; 
+				-webkit-transition: color.5s; 
+			} 
+			input:focus::-webkit-input-placeholder, input:hover::-webkit-input-placeholder { 
+				color: #c2c2c2; 
+				-webkit-transition: color.5s; 
+			}
+			.ok {
+			    color: green;
+			    border: 1px solid green;
+			}
+			.error {
+				color: red;
+				border: 1px solid red;
+			}
+		</style>
+	</head>
+	<body>
+		<header >
+			<h1>HTML5学习系统</h1>
+		</header>
+		<nav>
+			<ul >
+				<li class="a"><a href="index.html">首页</a></li>
+				<li class="a"><a href="login.html">登录</a></li>
+				<li><a href="register.html">注册</a></li>
+			</ul>
+		</nav>
+		<form action="index.html" method="get" onsubmit="return check_form()">
+			<fieldset>
+				<legend>请输入登录信息</legend>
+				<label>姓名：</label>
+				<input type="text" name="name" placeholder="请输入您的姓名" autocomplete="off" id="name" onblur="check_name()" onfocus="name_recover()"/>
+				<br />
+				<label>密码：</label>
+				<input type="password" name="password" placeholder="请输入你的密码" id="password" onblur="check_password()" onfocus="password_recover()"/>
+				<br>
+				<input type="submit" value="提交" id="sumit" />
+				<input type="reset" value="重置" />
+			</fieldset>
+		</form>
+	</body>
+</html>
