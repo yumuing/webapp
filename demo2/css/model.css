@@ -1,0 +1,243 @@
+#search{
+	font-size: 0.15rem;
+	color: #818181;
+	height: 1.56rem;
+	display: flex;
+	justify-content: center;
+	background-color: white;
+}
+
+#search-main{
+	width: 4.25rem;
+	height: 0.5rem;
+	margin-top: 1.06rem;
+	border: #669dc6 1px solid;
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#search img{
+	width: 0.24rem;
+	height: 0.24rem;
+}
+
+#search span{
+	height: 0.24rem;
+}
+
+#server{
+	height: 1.1rem;
+	display: flex;
+	justify-content: center;
+	background-color: white;
+}
+
+#server-main{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 0.15rem;
+	width: 3.6rem;
+}
+
+#server span{
+	height: 0.36rem;
+	text-align: center;
+}
+
+#server img{
+	width: 0.36rem;
+	height: 0.36rem;
+}
+
+.interval{
+	height: 0.4rem;
+	font-size: 0.15rem;
+	color: #cccdcf;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.interval-left{
+	width: 20%;
+}
+
+.interval-middle{
+	width: 50%;
+}
+
+.interval-right{
+	width: 20%;
+}
+
+.interval-right img{
+	float: right;
+	width: 0.24rem;
+	height: 0.24rem;
+	vertical-align:middle;
+}
+
+#course{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 2.6rem;
+	background-color: white;
+	font-size: 0.15rem;
+}
+
+#course-main{
+	height: 2.15rem;
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-content: space-around;
+}
+
+.course-list{
+	height: 33%%;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.course-left{
+	width: 15%;
+}
+
+.course-middle{
+	width: 75%;
+	line-height: 0.25rem;
+}
+.course-text-top{
+	
+}
+.course-text-botton{
+	color: #cccdcf;
+}
+
+.course-flag{
+	display: inline-block;
+	width: 0.3rem;
+	text-align: center;
+	color: #cccdcf;
+	border: #cccdcf 1px solid;
+	border-radius: 0.2rem;
+}
+
+.course-right{
+	width: 20%;
+}
+
+.course-right span{
+	text-align: center;
+	line-height: 0.3rem;
+	display: inline-block;
+	color: #6AB7EB;
+	width: 0.63rem;
+	height: 0.3rem;
+	border: #6ab7eb 2px solid;
+	border-radius: 0.2rem;
+}
+
+.course-left img{
+	width: 0.5rem;
+	height: 0.5rem;
+}
+
+
+#show{
+	width: 100%;
+	height: 1.8rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+}
+
+#show-main div{
+	width: 4.4rem;
+	height: 1.4rem;
+}
+
+#show-main img{
+	width: 4.4rem;
+	height: 1.4rem;
+}
+
+.artical-interval{
+	width: 100%;
+	height: 0.1rem;
+}
+
+.artical{
+	background-color: white;
+	width: 100%;
+	height: 3.3rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.artical-main{
+	height: 80%;
+}
+
+.artical-top{
+	font-size: 0.20rem;
+	height: 15%;
+}
+
+.artical-middle{
+	width: 4.4rem;
+	height: 85%;
+}
+
+.artical img{
+	width: 4.4rem;
+	height: 2.1rem;
+}
+
+
+.artical-botton{
+	font-size: 0.12rem;
+	color: #cccdcf;
+	text-align: right;
+}
+
+footer{
+	width: 100%;
+	height: 0.6rem;
+	position:fixed ;
+	bottom: 0rem;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#foot-main{
+	height: 100%;
+	width: 90%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 0.12rem;
+}
+
+#foot-main div{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 0.6rem;
+	height: 0.6rem;
+}
+
+#foot-main img{
+	height: 0.6rem;
+}

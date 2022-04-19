@@ -1,0 +1,14 @@
+// 当我们设置html的font-szie为 (屏幕宽度*100/设计稿宽度) 的px 时 
+// 当我们在设计稿上测得的 px 单位值,直接将值除以100换为rem单位写到代码里面即可
+// 浏览器存在最小字体,不得小于 12px,当我们设置 font-size: n(px) ;
+// 屏幕宽度除以750可能已经很小了,这个比例已经不太合适了,所以我们把它放大一百倍
+// 375px iphone 678   
+@desigin-width: 477px;
+@media screen and (min-width:375px) {
+	@screen-width: 375px;
+	@num: @screen-width * 100 / @desigin-width;
+    html {
+        font-size: @num;
+		background-color: #f6f7f9;
+    }
+}
